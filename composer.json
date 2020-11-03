@@ -1,0 +1,24 @@
+{
+  "name": "hadi-heydarzade89/sample-codule",
+  "description": "Sample Test module ",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Hadi heydarzade",
+      "email": "test@test.com",
+      "homepage": "https://www.studentgroup.ir",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "STG\\Test\\": ""
+    }
+  }
+}
+
